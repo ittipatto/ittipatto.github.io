@@ -46,9 +46,11 @@ figcaption {
 p {
     color: blue;
 }
-@media (orientation: landscape) and (max-width: 2040px) {
-    p, li {
-        font-size: 18px;
+/* for screen weight more than 1040px  */
+
+@media screen and (max-width: 1039px) {
+    a, p, li {
+        font-size: 20px;
         line-height: auto;
         letter-spacing: auto;
     }
@@ -58,11 +60,16 @@ p {
         height: fit-content;
         object-fit: contain;
     }
+
+    body {
+        max-width: fit-content;
+    }
 }
 
-@media (orientation: Portrait) and (min-width: 2040px) {
-    p, li {
-        font-size: 15px;
+/* for screen weight more than 1040px  */
+@media screen and (min-width: 1040px) {
+    a, p, li {
+        font-size: 20px;
         line-height: auto;
         letter-spacing: auto;
     }
