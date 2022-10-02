@@ -1,0 +1,25 @@
+{
+    "storage": [
+        {
+            "name": "Coca Cola",
+            "price": "115",
+            "number": "30",
+            "dangerNumber": "20",
+            "safetyNumber": "50"
+        },
+        {
+            "name": "Pepsi",
+            "price": "115",
+            "number": "10",
+            "dangerNumber": "20",
+            "safetyNumber": "50"
+        },
+        {
+            "name": "Fanta",
+            "price": "110",
+            "number": "40",
+            "dangerNumber": "15",
+            "safetyNumber": "30"
+        }
+    ]
+}
